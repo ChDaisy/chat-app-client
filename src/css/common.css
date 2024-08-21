@@ -1,0 +1,20 @@
+@import "../components/InputField/InputField.css";
+@import "../components/MessageContainer/MessageContainer.css";
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+}
+
+button {
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+}
+button.pink {
+  background-color: #ff7aa4;
+}
+button.green {
+  background-color: #497a40;
+  color: #fff;
+}

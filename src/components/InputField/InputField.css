@@ -1,0 +1,44 @@
+.inputField {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.more {
+  font-size: 20px;
+  width: 7%;
+  height: 30px;
+  background-color: #d8d8d8;
+  margin-top: 10px;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 50%;
+}
+.more:hover {
+  background-color: #a9a9a9;
+  color: #fff;
+  cursor: pointer;
+}
+input {
+  width: 86%;
+  height: 50px;
+  box-sizing: border-box;
+  border: none;
+  padding: 5px 25px;
+  border-radius: 25px;
+}
+input:focus {
+  outline: none;
+}
+/* button {
+  width: 13%;
+  height: 50px;
+} */
